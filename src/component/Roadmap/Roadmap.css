@@ -1,0 +1,77 @@
+.map-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.map-container h2{
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.map-container img{
+    margin-left: 120px;
+    margin-top: 30px;
+    width: 1000px;
+    border-radius: 20px;
+    align-self: center;
+}
+.faq-container{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+    justify-content: space-between;
+    height: 551px;
+    background-color: transparent;
+    width: 900px;
+    margin-left: 190px;
+}
+.faq-container h1{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 600;
+    align-self: center;
+}
+.question-container{
+    color: #ffffff;
+    align-self: center;
+}
+.app-container{
+    width: 650px;
+    height: 302px;
+    padding: 56px 156px 56px 156px;
+    gap: 30px;
+    border-radius: 20px;
+    margin-left: 170px;
+    opacity: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 140px 120px 132px 116px #63F2FF1A inset;
+
+
+}
+.app-container h1{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 26px;
+    font-weight: bold;
+}
+.app-container p{
+    color: lightcyan;
+    text-align: center;
+    font-size: 17px;
+    font-family: "Roboto";
+}
+.app-container button{
+    background-color: #CDFCFF;
+    width:139.71px;
+    height:44px;
+    padding: 12px 24px 12px 24px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    border:2px #4CDDFD solid;
+
+}
